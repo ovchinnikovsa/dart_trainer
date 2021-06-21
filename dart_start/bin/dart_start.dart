@@ -41,5 +41,15 @@ void main() {
   print('~~~~~');
   Symbol s = #f;
   print(s);
-  print('~~~~~\n');
+  print('~~~~~\n\n\n');
+
+  var message = 'hello';
+  print(message.runtimeType);
+  var number = 10;
+  print(number.runtimeType);
+
+  dynamic message1 = 'hello';
+  print(message.runtimeType);
+  message1 = 15;
+  print(message.runtimeType);
 }
