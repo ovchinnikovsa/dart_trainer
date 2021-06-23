@@ -1,5 +1,6 @@
 void main() {
   // IF ELSE
+  /*
   var grade = 5;
   if (grade == 5) {
     print('Well done!');
@@ -74,4 +75,5 @@ void main() {
       print('Hello for $i');
     }
   }
+  */
 }
